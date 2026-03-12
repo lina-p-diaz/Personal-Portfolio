@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Personal Portfolio</title>
+  </head>
+  <body  class="bg-stone-200 text-stone-900 antialiased">
+  <nav id="navbar">
+    <ul>
+      <li><a href="#intro" class="hover-underline">About Me</a></li> 
+      <li><a href="#projects" class="hover-underline">Projects</a></li> 
+      <li><a href="#contact" class="hover-underline">Contact</a></li>
+    </ul> </nav>
+  <main>   
+    <div id="welcome-section" class="pt-32"> 
+  <h1 class="text-4xl mb-12 md:text-5xl font-semibold text-center">
+  Lina P. Diaz
+  </h1>
+  <div id="intro">
+    <h2 class="mb-12">Building, Testing, and Understanding Web Systems</h2> 
+      <img src="me.jpeg" alt="Lina Diaz" class="w-48 h-48 mx-auto object-cover rounded-full shadow-lg mb-8">
+     </div>
+      <p class="max-w-2xl mx-auto tracking-wide font-semibold font-serif">I enjoy building things and understanding how they work under the hood. 
+    I test what I build, look for what breaks, and take time to understand why. 
+    <br>
+    Through personal projects and coursework, I’ve worked with HTML, CSS, SQL, 
+    and basic scripting (Javascript & Python) while developing a habit of documenting issues and thinking through systems end to end.
+    </p>
+  
+
+<section id="projects">
+   <div class="buttons flex gap-10">
+      <button id="Valentine-mini" class="project-tile shadow-xl  bg-pink-200 
+      transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+      hover:scale-110 hover:bg-stone-200">Valentine Mini
+      </button>
+      <button class="project-tile shadow-xl bg-pink-200 transition delay-150 
+      duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 
+      hover:bg-stone-200">Finance
+      </button>
+      </div>
+
+      <div id="valentine" class="project-card hidden">
+        <h3>Valentine-Mini</h3>
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+        </ul>
+      <a href="https://github.com/Linadee/Valentine-mini.git" 
+      class="shadow-xl transition delay-150 duration-300 ease-in-out  
+      hover:bg-stone-200 p-3 rounded-xl">View
+    </a>
+      </div>
+  
+      <div id="finance" class="project-card hidden">
+        <h3>Finance</h3>
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>SQLite</li>
+          <li>Python</li>
+          <li>Flask</li>
+       </ul>
+      <a href="https://github.com/Linadee/-Finance.git"
+      id="finance" class="shadow-xl transition delay-150 duration-300 ease-in-out  
+      hover:bg-stone-200">View
+    </a> 
+      </div>
+  <p class="max-w-2xl mx-auto tracking-wide font-semibold font-serif">
+  This portfolio highlights my approach to learning through building and testing real projects. 
+  I focus on understanding system behavior, identifying issues, 
+  and improving functionality through thoughtful iteration.
+    </p>
+</section> 
+
+<div class="contact py-24 text-center" id="contact">
+  <p class="text-xl font-semibold font-serif  mb-6">Contact Me:</p>
+
+<div class="contact-icons flex justify-center gap-8 text-4xl"> 
+<a id="profile-link" href="mailto:diazlp2780@gmail.com" target="_blank">
+  <i class="fa-regular fa-envelope hover:text-stone-600 transition"></i></a>
+<a id="profile-link" href="https://github.com/Linadee" target="_blank">
+  <i class="fa-brands fa-square-github hover:text-stone-600 transition"></i>
+</a>
+<a id="profile-link" href="https://www.linkedin.com/in/lina-diaz1" target="_blank">
+  <i class="fa-brands fa-linkedin  hover:text-stone-600 transition "></i>
+</a>
+  </div>
+</div>
+</main>
+
+<script src="script.js"></script>
+    </body> 
+  </html> 
