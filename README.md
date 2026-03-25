@@ -18,4 +18,4 @@ The site showcases my projects and highlights my work as I continue developing m
 - Smooth scrolling navigation
 
 ##Live Website 
--https://github.com/lina-p-diaz/Personal-Portfolio
+-https://lina-p-diaz.github.io/Personal-Portfolio/
